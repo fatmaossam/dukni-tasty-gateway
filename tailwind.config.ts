@@ -58,6 +58,16 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "warm-gradient": "var(--warm-gradient)",
+      },
+      boxShadow: {
+        "food": "var(--food-shadow)",
+        "food-hover": "0 20px 40px -15px hsl(var(--primary) / 0.4)",
+      },
+      transitionTimingFunction: {
+        "elegant": "cubic-bezier(0.4, 0, 0.2, 1)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
